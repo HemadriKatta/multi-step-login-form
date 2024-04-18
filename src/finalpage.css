@@ -1,0 +1,156 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 24px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .search-container {
+    flex-grow: 1;
+    margin: 0 24px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #ea4c89;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-upload {
+    margin-right: 12px;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .content {
+    padding: 48px 16px;
+  }
+  
+  .verify-email-container {
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .verify-email-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .verify-email-icon {
+    font-size: 48px;
+    color: #ea4c89;
+    margin-bottom: 24px;
+  }
+  
+  .verify-email-text {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .email {
+    font-weight: bold;
+  }
+  
+  .verify-email-note {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+  }
+  
+  .btn-resend {
+    margin-bottom: 12px;
+  }
+  
+  .link {
+    color: #ea4c89;
+    text-decoration: none;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+    padding: 48px 16px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex-basis: 25%;
+    padding: 0 16px;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-item {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
